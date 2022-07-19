@@ -1,0 +1,47 @@
+.nav-item,
+.nav-item-active {
+  color: aliceblue;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-nav {
+  padding-left: 25px;
+  padding-bottom: 50px;
+  background-color: #192841;
+}
+
+.navbar-bottom {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #192841;
+}
+
+.navbar {
+  padding-left: 10px;
+  padding-right: 100px;
+  background-color: #192841;
+}
+
+.call,
+.hours,
+.location {
+  color: aliceblue;
+}
+
+.navbar-bottom:hover {
+  color: #a7c7e7;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: #a7c7e7;
+  text-decoration: none;
+}
+
+.nav-item-active:hover {
+  color: #a7c7e7;
+  text-decoration: none;
+}

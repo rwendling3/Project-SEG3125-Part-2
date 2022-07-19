@@ -1,0 +1,95 @@
+.content {
+  padding-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: #23262a;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #23262a;
+  font-family: sans-serif;
+  font-size:x-large;
+  padding-bottom: 50px;
+  padding-top: 150px;
+}
+
+h3 {
+  color: #23262a;
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+
+.home-description {
+  padding-top: 50px;
+}
+
+.header {
+  float: left;
+  padding-left: 50px;
+}
+
+.info-navbar {
+  text-align: center;
+}
+
+.order {
+    border-width: 2px;
+    border-color:lightgray;
+    border-style: solid;
+    width: 800px;
+    height: 650px;
+    text-align: center;
+
+}
+
+.order-content {
+    padding-left: 20%;
+    padding-bottom: 100px;
+}
+
+  .form-check {
+    padding-left:49%;
+    text-align:left;
+    padding-bottom: 20px;
+  }
+
+  label {
+    font-size: large;
+  }
+
+  .btn-circle {
+    width:60px;
+    height: 60px;
+    border-radius: 30px;
+    float: left;
+    margin-left:35px;
+    margin-top: 50px;
+    background-color: white;
+    color: #23262a;
+  }
+
+  .btn-circle:hover {
+    background-color: lightgrey;
+    color: #23262a;
+  }
+
+  .steps {
+    padding-left: 17%;
+  }
+
+  .active-circle  {
+    background-color:#a7c7e7;
+  }
+
+  .form-control {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+  }
+    
