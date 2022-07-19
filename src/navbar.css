@@ -1,4 +1,4 @@
-.nav-item,
+.Nav .nav-item, .Nav 
 .nav-item-active {
   color: aliceblue;
   text-decoration: none;
@@ -6,42 +6,47 @@
   padding-bottom: 5px;
 }
 
-.navbar-nav {
+.Nav  .navbar-nav {
   padding-left: 25px;
   padding-bottom: 50px;
   background-color: #192841;
 }
 
-.navbar-bottom {
+.Nav  .navbar-bottom {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: #192841;
+  font-size: 1rem;
 }
 
-.navbar {
+.Nav  .navbar-bottom h3 {
+  font-size: 1rem;
+}
+
+.Nav  .navbar {
   padding-left: 10px;
   padding-right: 100px;
   background-color: #192841;
 }
 
-.call,
-.hours,
-.location {
+.Nav .call,
+.Nav .hours,
+.Nav .location {
   color: aliceblue;
 }
 
-.navbar-bottom:hover {
+.Nav .navbar-bottom:hover {
   color: #a7c7e7;
   text-decoration: none;
 }
 
-.nav-item:hover {
+.Nav .nav-item:hover {
   color: #a7c7e7;
   text-decoration: none;
 }
 
-.nav-item-active:hover {
+.Nav .nav-item-active:hover {
   color: #a7c7e7;
   text-decoration: none;
 }

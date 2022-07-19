@@ -6,7 +6,10 @@ import './confirmation.css';
 
 const Confirmation  = () => {
     return ( 
-        <Navbar/>
+        <div class = "Confirmation">    
+        <h1>Confirmation</h1>
+        <h2>Your order will probably come at some point</h2>
+        </div>
      );
 }
  

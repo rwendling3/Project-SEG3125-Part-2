@@ -6,6 +6,7 @@ import './navbar.css';
 
 const NavbarBottom = () => {
     return (  
+        <div class="Nav">
         <nav class="navbar-bottom navbar-light">
         <div class = "info-navbar">
         <h3 class = "call">Call 222-222-222</h3>
@@ -13,6 +14,7 @@ const NavbarBottom = () => {
         <h3 class = "hours">We never close!</h3>
         </div>
         </nav>
+        </div>
     );
 }
  
