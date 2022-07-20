@@ -22,7 +22,7 @@ function App() {
             <Route exact path = "/">
               <Home/>
             </Route>
-            <Route exact path = "/shop">
+            <Route exact path = "/shoper">
               <Shop/>
             </Route>
             <Route exact path = "/order">
@@ -37,9 +37,14 @@ function App() {
             <Route exact  path = "/quizresults">
               <QuizContent1/>
             </Route>
+            <Route exact path="/Project-SEG3125-Part-2"> 
+              <Home/>
+            </Route>
             <Route exact path="*"> 
               <PageNotFound/>
             </Route>
+            
+
           </Switch>
             
         </div>
