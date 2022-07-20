@@ -8,7 +8,9 @@ import Order from './order';
 import Confirmation from './confirmation';
 import QuizContent1 from './quizContent1';
 import Home from './home';
+import FAQ from './FAQ';
 import PageNotFound from './PageNotFound';
+
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -39,6 +41,9 @@ function App() {
             </Route>
             <Route exact path="/Project-SEG3125-Part-2"> 
               <Home/>
+            </Route>
+            <Route exact path="/FAQ"> 
+              <FAQ/>
             </Route>
             <Route exact path="*"> 
               <PageNotFound/>
