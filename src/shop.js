@@ -2,8 +2,14 @@ import Navbar from './navbar';
 import logo from './logo.png';
 import coffee from './coffee.png';
 import './shop.css';
+import { useHistory } from "react-router-dom";
 
 const Shop = () => {
+    const history = useHistory();
+    const handleClick = () => {
+         history.push("/order");
+      }
+      
     return ( 
         <div class="Shop">
                 <div class ="containers">
@@ -29,6 +35,18 @@ const Shop = () => {
                 </label>
             </div>
 
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+                <label class="form-check-label" for="flexCheckDefault"> Strong
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+                <label class="form-check-label" for="flexCheckDefault"> Iced
+                </label>
+            </div>
+
             <div class="button-class">
                 <button type="button" class="btn btn-secondary" onclick=" window.location.href = '/project2SEG3125/html/shop.html'">  Submit</button>
             </div>
@@ -48,7 +66,7 @@ const Shop = () => {
                           <h6 class="card-subtitle mb-2 text-muted">reccommend</h6>
                           <p class="card-text">Very good!</p>
                           <div class="button-class">
-                            <button type="button" class="btn btn-secondary" onclick=" window.location.href = '/project2SEG3125/html/order.html'">Buy</button>
+                            <button type="button" class="btn btn-secondary" onClick={handleClick}>Buy</button>
                           </div>
                         </div>
                       </div>
@@ -62,7 +80,7 @@ const Shop = () => {
                           <h6 class="card-subtitle mb-2 text-muted">reccommend</h6>
                           <p class="card-text">Very good!</p>
                           <div class="button-class">
-                            <button type="button" class="btn btn-secondary" onclick=" window.location.href = '/project2SEG3125/html/order.html'">Buy</button>
+                            <button type="button" class="btn btn-secondary" onClick={handleClick}>Buy</button>
                           </div>
                         </div>
                       </div>
@@ -77,7 +95,7 @@ const Shop = () => {
                           <h6 class="card-subtitle mb-2 text-muted">reccommend</h6>
                           <p class="card-text">Very good!</p>
                           <div class="button-class">
-                            <button type="button" class="btn btn-secondary" onclick=" window.location.href = '/project2SEG3125/html/order.html'">Buy</button>
+                            <button type="button" class="btn btn-secondary" onClick={handleClick}>Buy</button>
                           </div>
                         </div>
                       </div>
@@ -96,7 +114,7 @@ const Shop = () => {
                           <h6 class="card-subtitle mb-2 text-muted">reccommend</h6>
                           <p class="card-text">Very good!</p>
                           <div class="button-class">
-                            <button type="button" class="btn btn-secondary" onclick=" window.location.href = '/project2SEG3125/html/order.html'">Buy</button>
+                            <button type="button" class="btn btn-secondary" onClick={handleClick}>Buy</button>
                           </div>
                         </div>
                       </div>
@@ -109,7 +127,7 @@ const Shop = () => {
                           <h6 class="card-subtitle mb-2 text-muted">reccommend</h6>
                           <p class="card-text">Very good!</p>
                           <div class="button-class">
-                            <button type="button" class="btn btn-secondary" onclick=" window.location.href = '/project2SEG3125/html/order.html'">Buy</button>
+                            <button type="button" class="btn btn-secondary" onClick={handleClick}>Buy</button>
                           </div>
                         </div>
                       </div>
@@ -123,7 +141,7 @@ const Shop = () => {
                           <h6 class="card-subtitle mb-2 text-muted">reccommend</h6>
                           <p class="card-text">Very good!</p>
                           <div class="button-class">
-                            <button type="button" class="btn btn-secondary" onclick=" window.location.href = '/project2SEG3125/html/order.html'">Buy</button>
+                            <button type="button" class="btn btn-secondary" onClick={handleClick}>Buy</button>
                           </div>
                         </div>
                       </div>
@@ -139,7 +157,7 @@ const Shop = () => {
                           <h6 class="card-subtitle mb-2 text-muted">reccommend</h6>
                           <p class="card-text">Very good!</p>
                           <div class="button-class">
-                            <button type="button" class="btn btn-secondary" onclick=" window.location.href = '/project2SEG3125/html/order.html'">Buy</button>
+                            <button type="button" class="btn btn-secondary" onClick={handleClick}>Buy</button>
                           </div>
                         </div>
                       </div>
@@ -151,7 +169,7 @@ const Shop = () => {
                       <h6 class="card-subtitle mb-2 text-muted">reccommend</h6>
                       <p class="card-text">Very good!</p>
                       <div class="button-class">
-                        <button type="button" class="btn btn-secondary" onclick=" window.location.href = '/project2SEG3125/html/order.html'">Buy</button>
+                        <button type="button" class="btn btn-secondary" onClick={handleClick}>Buy</button>
                       </div>
                     </div>
                   </div>
@@ -164,7 +182,7 @@ const Shop = () => {
                       <h6 class="card-subtitle mb-2 text-muted">reccommend</h6>
                       <p class="card-text">Very good!</p>
                       <div class="button-class">
-                        <button type="button" class="btn btn-secondary" onclick=" window.location.href = '/project2SEG3125/html/order.html'">Buy</button>
+                        <button type="button" class="btn btn-secondary" onClick={handleClick}>Buy</button>
                       </div>
                     </div>
                   </div>

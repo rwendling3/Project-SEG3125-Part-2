@@ -6,7 +6,9 @@ import Quiz from './quiz';
 import Shop from './shop';
 import Order from './order';
 import Confirmation from './confirmation';
+import QuizContent1 from './quizContent1';
 import Home from './home';
+import PageNotFound from './PageNotFound';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -31,6 +33,12 @@ function App() {
             </Route>
             <Route exact  path = "/quiz">
               <Quiz/>
+            </Route>
+            <Route exact  path = "/quizresults">
+              <QuizContent1/>
+            </Route>
+            <Route exact path="*"> 
+              <PageNotFound/>
             </Route>
           </Switch>
             
